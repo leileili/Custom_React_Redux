@@ -1,6 +1,5 @@
 
 const CommonReducer = (state = {"houseData":[], "filterData":""}, action) => {
-  switch (action.type) {
   	case '_common_':
   		return state
 	case 'houseData':

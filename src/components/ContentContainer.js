@@ -34,6 +34,7 @@ const ContentContainer = connect(
 			    return {
 			    	houseData: store.CommonReducer.houseData,
 			    	filterData: store.CommonReducer.filterData
+
 			    };
 			  }
 			)(_ContentContainer);

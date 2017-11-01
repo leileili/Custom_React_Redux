@@ -14,7 +14,6 @@ class _NavigationContainer extends React.Component{
 		cm.subscribe("houseData", function(){
 			this.setState(Object.assign({}, this.state, {"enableFilter":true}))
 		},this); 
-
 	}
 
 	
@@ -46,4 +45,5 @@ const NavigationContainer = connect(
 		    };
 		  }
 		)(_NavigationContainer);
+
 export default NavigationContainer

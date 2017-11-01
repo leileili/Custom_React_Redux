@@ -40,7 +40,7 @@ class RemoteServices {
 		$.get(param.url, function(res) {
 			var data = eval("("+res+")")
 			cm.dispatch({"type":"houseData", "data":data.comparables})
-			//cm.publish({"type":"/"+self.id+"/getAll"+"/Response", "data":res});
+			//cm.publish({"type":"/"+self.id+"/getAll"+"/Response", "data":res})
 			if (param.handler) {
 				param.handler(res)
 			}
