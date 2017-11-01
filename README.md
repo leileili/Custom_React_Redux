@@ -22,6 +22,8 @@ Also for the problem of having no match reducer for a specific action type, I do
 
 I put together a small demo to explain how it was done in my work project. 
 
+Here is the flow chart:
+![Custom React Redux workflow](./Custom_React_Redux.png?raw=true "Custom React Redux workflow Picture")
 		
 **Live Demo:**
 
